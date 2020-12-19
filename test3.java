@@ -9,7 +9,7 @@ public class test3 {
 
     for(int i = 1; i <= tinggi; i++) {
       // Print bagian kiri row
-      for(int j = 1; j <= i; j++) {
+      for(int kiri = 1; kiri <= i; kiri++) {
         System.out.print("*");
       }
         
@@ -19,13 +19,13 @@ public class test3 {
       }
             
       // Print bagian kanan row
-      for(int j = 1; j <= i; j++) {
+      for(int kanan = 1; kanan <= i; kanan++) {
         System.out.print("*");
       }
         
-      //print new lint
+      //print baris baru
       System.out.println();   
-      spasi = spasi-2;
+      spasi -= 2;
     }
   }
 }

@@ -2,6 +2,7 @@ function cekNilai(nilaiArr) {
   let total = 0, totalNilai = 0;
   let lulus = 0, tidakLulus = 0;
   nilaiArr.forEach((nilai) => {
+    console.log(`Nilai ${nilai} => ${nilai >= 65 ? 'Lulus' : 'Tidak Lulus'}`);
     total++;
     totalNilai += nilai;
     if (nilai >= 65) lulus++;
