@@ -4,10 +4,9 @@ public class test3 {
   }
 
   public static void cetakPola(int tinggi) {
-
     // 10 * 2 - 2
     int spasi = (tinggi * 2) - 2;
-    
+
     for(int i = 1; i <= tinggi; i++) {
       // Print bagian kiri row
       for(int j = 1; j <= i; j++) {
@@ -15,7 +14,7 @@ public class test3 {
       }
         
       // Print spasi sisa
-      for(int j=1;j<=spasi; j++) {
+      for(int j = 1; j <= spasi; j++) {
         System.out.print(" ");
       }
             
