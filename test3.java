@@ -7,6 +7,7 @@ public class test3 {
 
     // 10 * 2 - 2
     int spasi = (tinggi * 2) - 2;
+    
     for(int i = 1; i <= tinggi; i++) {
       // Print bagian kiri row
       for(int j = 1; j <= i; j++) {
